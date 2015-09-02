@@ -19,5 +19,7 @@
         <ComboBox Header="ComboBox:"
                   ItemsSource="{Binding Options}"
                   SelectedItem="{Binding SelectedOption, Mode=TwoWay}"/>
+        <Button Content="button"
+                Command="{Binding AcceptCommand}"/>
     </Grid>
 </Page>
